@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- reset-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+  <!-- styles -->
+  <link rel="stylesheet" href="css/index.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <title>AnalogSea</title>
+</head>
+<body>
+  <img src="images/logo.png" class="logo">
+  <div class="signup-panel">
+  <h1 class="form-title">Sign up</h1>
+  <form class="signup-form" action="/signup" accept-charset="UTF-8" method="post">
+  <label for="email">Email</label>
+  <input type="email" name="email" id="email" placeholder="foo@bar.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password" placeholder="123passw0rd" required>
+  <button type='submit'>Sign up</button>
+  <a href="" class="forgot-password">Forgot password?</a>
+  </form>
+  </div>
+  <span class="footer">Already have an account? <a href="">Log in</a></span>
+</body>
+</html>
